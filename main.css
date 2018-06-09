@@ -1,0 +1,363 @@
+body, p, ul, li, h1, button, a {
+	margin: 0;
+	padding: 0;
+	font-family: 'Song Myung', serif;
+}
+
+ul {
+	width:100%;
+	padding: 30px 0px;
+	position: fixed;
+	top: 0;
+	background: linear-gradient(to right, #174f5e, #add8b2);
+	z-index: 50;
+	box-shadow: 10px 10px 50px #232;
+
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+
+}
+
+li a {
+	padding: 20px 35px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	transition-duration: 0.2s;
+}
+  
+#logo {
+	margin-left: 20px;
+}
+
+
+#logo a {
+	font-size: 30px;
+	border-radius: 100%;
+	transition-duration: 0.2s;
+}
+
+.btn {
+	transition-duration: 0.2s;
+}
+
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+.navig {
+	float: right;
+	margin-top: 10px;
+}
+
+#myCarousel {
+	width: 50%;
+	margin: auto;
+	margin-top: 105px;
+	position: relative;
+
+}
+
+.item img {
+	width: 100%;
+}
+
+#community {
+	text-align: center;
+	padding: 60px;
+	background-color: #eae6d1;
+}
+
+#community h2 {
+	font-size: 50px;
+}
+
+#community p {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.btn-info {
+	padding: 30px;
+	font-size: 20px;
+}
+
+#objective {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 40px;
+}
+
+#objectivepara {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+
+#lectureform {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#lectureformpara {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#members {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#memberspara {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#coursewarecontent {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#coursewarecontentpara {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#recentresults {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#recentresultspara {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#futureplan {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#futureplanpara {
+	font-size: 30px;
+	margin-bottom: 150px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.jumbotron {
+	background-color: #e0e6d8;
+	text-align: center;
+	padding-top: 200px;
+	margin: 0;
+}
+
+#subheader {
+	padding-top: 50px;
+}
+
+.jumbotron #subheader1:hover {
+	background-color: white;
+	color: #e0e6d8;
+	transition-duration: 0.2s;
+}
+
+.xxx {
+	 border-style: solid;
+	 border-color: #fbf2d6;
+	 background-color: #e0e6d8;
+	 padding-bottom: 50px;
+}
+
+#bigheader {
+	font-size: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #e0e6d8;
+}
+
+#small {
+	font-size: 30px;
+	background-color: #e0e6d8;
+	text-align: center;
+}
+
+#myform {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#objectivepara, #lectureformpara, #memberspara, #coursewarecontentpara, #recentresultspara, #futureplanpara {
+	display: none;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+#aboutbody {
+	background-color: #e0e6d8;
+	min-height: 700px;
+}
+
+#aboutbody1 {
+	background-color: #e0e6d8;
+	min-height: 700px;
+}
+
+#aboutbody h2:hover {
+	cursor: pointer;
+	color: skyblue;
+}
+
+#aboutbody2 {
+	background-color: #e0e6d8;
+}
+
+#aboutbody3 {
+	background-color: #e0e6d8;
+}
+
+#rowone {
+	padding-top: 100px;
+}
+
+#rowone, #rowtwo, #rowthree {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.col-sm-6 .panel-heading {
+color: white;
+background-color: #5dbdbf;
+padding: 50px;
+font-size: 50px;
+}
+
+.panel-body {
+	height: 300px;
+	font-size: 20px;
+}
+
+#myCarousel {
+	width: 50%;
+}
+
+#message {
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+#form1 {
+	font-size: 20px;
+}
+
+#submit {
+	padding: 10px 40px;
+	font-size: 20px;
+	border-radius: 15px;
+	margin-top: 10px;
+
+}
+
+#map {
+	width: 60%;
+	height: 400px;
+	margin: 30px auto;
+
+}
+
+#contactbody {
+	background-color: #e0e6d8;
+}
+
+.slides {
+	width: 46%;
+	float: left;
+	margin: 20px 2%;
+}
+
+.slides p {
+	font-size: 40px;
+	text-align: center;
+}
+
+.presentation img {
+	width: 100%;
+	transition-duration: 0.2s;
+}
+
+.presentation img:hover {
+	opacity: 0.6;
+}
+
+.presentation p {
+	font-family: 'Lato';
+}
+
+#abouttitle {
+	text-align: center;
+	padding: 130px 0px 00px 0px;
+	color: black;
+	font-size: 60px;
+}
+
+.slideanim {visibility:hidden;}
+  .slide2 {
+      animation-name: slide2;
+      -webkit-animation-name: slide2;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide2 {
+    0% {
+      opacity: 0;
+      transform: translateY(40%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide2 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(40%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+	li a {
+	padding: 10px 15px;
+	font-size: 15px;
+		}
+	#myCarousel {
+	width: 100%;
+}
+}
+
+
+
