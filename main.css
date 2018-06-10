@@ -44,6 +44,9 @@ li a {
 	transition-duration: 0.2s;
 }
 
+.btn a {
+	color: white;
+}
 
 .btn:hover {
 	transform: scale(1.1);
@@ -357,6 +360,9 @@ font-size: 50px;
 	#myCarousel {
 	width: 100%;
 }
+	.slides {
+		width: 96%;
+	}
 }
 
 
