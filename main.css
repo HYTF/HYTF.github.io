@@ -363,6 +363,11 @@ font-size: 50px;
 	.slides {
 		width: 96%;
 	}
+
+	#aboutbody h2 {
+		font-size: 24px;
+		margin: 0px 10%;
+	}
 }
 
 
