@@ -76,12 +76,28 @@ li a {
 }
 
 #community h2 {
-	font-size: 50px;
+	font-size: 70px;
 }
 
 #community p {
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 30px;
+	padding: 30px;
+}
+
+#class {
+	text-align: center;
+	padding: 50px;
+}
+
+#class h2 {
+	font-size: 70px;
+}
+
+#class p {
+	margin-bottom: 20px;
+	font-size: 30px;
+	padding: 30px;
 }
 
 .btn-info {
@@ -262,6 +278,7 @@ font-size: 50px;
 
 #myCarousel {
 	width: 50%;
+	margin-top: 120px;
 }
 
 #message {
@@ -331,6 +348,39 @@ font-size: 50px;
       -webkit-animation-duration: 1s;
       visibility: visible;
   }
+
+ #formerror {
+ 	padding: 20px;
+ 	font-size: 18px;
+ 	text-align: center;
+ }
+
+#footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	float: left;
+}
+
+.worksample img {
+	width: 50%;
+	transition-duration: 0.2s;
+	padding-bottom: 30px;
+}
+
+.worksample img:hover {
+	opacity: 0.6;
+}
+
+#work h2{
+	font-size: 70px;
+	margin-top: 70px;
+}
+
   @keyframes slide2 {
     0% {
       opacity: 0;

@@ -1,17 +1,25 @@
+//$(document).ready(function(){
+  //$('#community p').html("new content");
+  //$('#community p').css("color", "gold");
+//});
+
 function checkForm() {
 	var fail = [];
-	if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.getElementById("email").value)) {
+	if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($("#email").val())) {
 	}
 	else {
 		fail.push("valid email address");
 	}
-	if(document.getElementById("message").value == "") {
+	if($("#message").val() == "") {
 		fail.push("message");
 	}
 	if(fail.length == 0) {
-		alert("Thank you for your message!");
-	} else
-	alert("Please enter the following: " + fail);
+		$("#formerror").html("Thank you for your message");
+    $("#formerror").css("color", "green");
+	} else {
+    $("#formerror").html("Please enter the following: " + fail);
+    $("#formerror").css("color", "red");
+  }
 }
 
 function myMap() {
@@ -64,3 +72,4 @@ $("#recentresults").click(function(){
 $("#futureplan").click(function(){
     $("#futureplanpara").slideToggle();
 });
+

@@ -36,21 +36,23 @@
 				<p id="small">Phone Number: xxx-xxx-xxxx</p>
 				<p id="small">Location: xxx xxxRD, Palo Alto, CA 94303</p>
 				<div id="myform">
-				<form id="form1">
+				<div id="form1">
 					Enter your email.</br>
 					<input type="text" name="email" id="email">
 					</br>
 					Enter your message.</br>
 					<input type="text" name="message" id="message">
 					</br>
-					<button id="submit" onclick="checkForm()">Send</button>
-				</form>
+				</div>
+				<button id="submit" onclick="checkForm()">Send</button>
+				<p id="formerror">
+				</p>
 			</div>
 		</div>
 		<div id="map">
-			
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 		</div>
-		<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> 
+		 
 
 	</body>
 </html>
