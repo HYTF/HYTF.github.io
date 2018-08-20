@@ -22,6 +22,12 @@ function checkForm() {
   }
 }
 
+$(window).scroll(function() {
+  $("#line").css({
+    'height': 150 + ($(this).scrollTop())
+  })
+});
+
 function myMap() {
 	var myCenter = new google.maps.LatLng(37.435105, -122.12426);
     var mapOptions = {

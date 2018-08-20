@@ -10,7 +10,7 @@ ul {
 	position: fixed;
 	top: 0;
 	background: linear-gradient(to right, #174f5e, #add8b2);
-	z-index: 50;
+	z-index: 60;
 	box-shadow: 10px 10px 50px #232;
 
 }
@@ -336,9 +336,9 @@ font-size: 50px;
 }
 
 .slides {
-	width: 46%;
+	width: 44%;
 	float: left;
-	margin: 20px 2%;
+	margin: 20px 3%;
 }
 
 .slides p {
@@ -405,6 +405,30 @@ font-size: 50px;
 #work h2{
 	font-size: 70px;
 	margin-top: 70px;
+}
+
+#circle {
+	background-color: lightblue;
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	border: 3px solid black;
+	border-radius: 100%;
+	z-index: 99;
+	left: 50%;
+	margin-left: -13px;
+	top: 450px;
+}
+
+#line {
+	background-color: #444;
+	width: 4px;
+	height: 150px;
+	position: absolute;
+	z-index: 50;
+	left: 50%;
+	margin-left: -6px;
+
 }
 
   @keyframes slide2 {
