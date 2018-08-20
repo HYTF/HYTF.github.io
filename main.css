@@ -40,6 +40,11 @@ li a {
 	transition-duration: 0.2s;
 }
 
+#logo a:hover {
+	color: gold;
+	text-decoration: none;
+}
+
 .btn {
 	transition-duration: 0.2s;
 }
@@ -55,6 +60,12 @@ li a {
 .navig {
 	float: right;
 	margin-top: 10px;
+}
+
+
+.navig a:hover {
+	color: gold;
+	text-decoration: none;
 }
 
 #myCarousel {
