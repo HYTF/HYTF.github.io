@@ -12,7 +12,6 @@ ul {
 	background: linear-gradient(to right, #174f5e, #add8b2);
 	z-index: 60;
 	box-shadow: 10px 10px 50px #232;
-
 }
 
 li {
@@ -22,9 +21,9 @@ li {
 }
 
 li a {
-	padding: 20px 35px;
+	padding: 38px 35px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 	transition-duration: 0.2s;
 }
@@ -41,8 +40,9 @@ li a {
 }
 
 #logo a:hover {
-	color: gold;
+	color: white;
 	text-decoration: none;
+	background: ;
 }
 
 .btn {
@@ -64,9 +64,11 @@ li a {
 
 
 .navig a:hover {
-	color: gold;
+	background-color: #174f5e;
+	color: white;
 	text-decoration: none;
 }
+
 
 #myCarousel {
 	width: 50%;
@@ -256,8 +258,16 @@ li a {
 #aboutbody h2:hover {
 	cursor: pointer;
 	color: skyblue;
+	transition-duration: 0.2s;
 }
 
+#row6 p{
+	margin-bottom: 100px;
+}
+
+#aboutbody h2{
+	margin-bottom: 50px
+}
 #aboutbody2 {
 	background-color: #e0e6d8;
 }
@@ -366,6 +376,9 @@ font-size: 50px;
  	text-align: center;
  }
 
+.r p{
+	font-size: 50px;
+}
 #footer {
 	text-align: center;
 	font-size: 18px;
