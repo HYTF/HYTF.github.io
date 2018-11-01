@@ -100,7 +100,7 @@ li a {
 
 #class {
 	text-align: center;
-	padding: 50px;
+	padding: 50px 8%;
 }
 
 #class h2 {
@@ -293,7 +293,7 @@ font-size: 50px;
 }
 
 .panel-body {
-	height: 300px;
+	height: 180px;
 	font-size: 20px;
 }
 
@@ -393,16 +393,26 @@ font-size: 50px;
 .worksample img {
 	width: 50%;
 	transition-duration: 0.2s;
-	padding-bottom: 30px;
+	display: block;
+	margin: auto;
+	padding: 30px 0px;
 }
 
 .worksample img:hover {
 	opacity: 0.6;
 }
 
+#work {
+	text-align: center;
+	padding: 70px 8%;
+}
+
+#work p{
+	font-size: 20px;
+}
+
 #work h2{
 	font-size: 70px;
-	margin-top: 70px;
 }
 
 #circle {
