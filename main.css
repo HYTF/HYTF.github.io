@@ -28,6 +28,11 @@ li a {
 	transition-duration: 0.2s;
 }
   
+#upcomingtext {
+	font-size: 50px;
+	margin-top: 100px;
+	text-align: center;
+}
 #logo {
 	margin-left: 20px;
 }
@@ -41,12 +46,15 @@ li a {
 
 #logo a:hover {
 	color: white;
+	color: #ffd200;
+	text-shadow: 5px 5px 8px black;
 	text-decoration: none;
 	background: ;
 }
 
 .btn {
 	transition-duration: 0.2s;
+	padding: 0;
 }
 
 .btn a {
@@ -54,7 +62,13 @@ li a {
 }
 
 .btn:hover {
-	transform: scale(1.1);
+	transform: scale(1.03);
+	box-shadow: 6px 6px 9px grey;
+	background-color: #008BB4;
+}
+
+.btn:hover a {
+	text-decoration: none;
 }
 
 .navig {
@@ -66,6 +80,7 @@ li a {
 .navig a:hover {
 	background-color: #174f5e;
 	color: white;
+	text-shadow: 3px 3px 5px black;
 	text-decoration: none;
 }
 
@@ -316,7 +331,15 @@ font-size: 50px;
 	font-size: 20px;
 	border-radius: 15px;
 	margin-top: 10px;
+	box-shadow: 2px 2px 5px black;
+	transition-duration: 0.3s
+}
 
+#submit:hover {
+	color: white;
+	background-color: black;
+	box-shadow: none;
+	transform: scale(1.03);
 }
 
 #map {
@@ -356,7 +379,7 @@ font-size: 50px;
 
 #abouttitle {
 	text-align: center;
-	padding: 130px 0px 00px 0px;
+	padding: 180px 0px 00px 0px;
 	color: black;
 	font-size: 60px;
 }
