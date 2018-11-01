@@ -308,8 +308,13 @@ font-size: 50px;
 }
 
 .panel-body {
-	height: 180px;
 	font-size: 20px;
+	padding: 20px;
+	height: 180px;
+}
+
+.teammember {
+	height: 300px;
 }
 
 #myCarousel {
