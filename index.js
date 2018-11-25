@@ -1,8 +1,3 @@
-//$(document).ready(function(){
-  //$('#community p').html("new content");
-  //$('#community p').css("color", "gold");
-//});
-
 function checkForm() {
 	var fail = [];
 	if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($("#email").val())) {

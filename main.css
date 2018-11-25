@@ -46,10 +46,8 @@ li a {
 
 #logo a:hover {
 	color: white;
-	color: #ffd200;
 	text-shadow: 5px 5px 8px black;
 	text-decoration: none;
-	background: ;
 }
 
 .btn {
@@ -74,6 +72,7 @@ li a {
 .navig {
 	float: right;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -120,12 +119,13 @@ li a {
 
 #class h2 {
 	font-size: 70px;
+	margin-bottom: 30px;
 }
 
 #class p {
 	margin-bottom: 20px;
-	font-size: 30px;
-	padding: 30px;
+	font-size: 20px;
+	padding: 1px;
 }
 
 .btn-info {
@@ -216,36 +216,27 @@ li a {
 	background-color: #e0e6d8;
 	text-align: center;
 	padding-top: 200px;
-	margin: 0;
 }
 
 #subheader {
 	padding-top: 50px;
 }
 
-.jumbotron #subheader1:hover {
-	background-color: white;
-	color: #e0e6d8;
-	transition-duration: 0.2s;
-}
-
 .xxx {
-	 border-style: solid;
-	 border-color: #fbf2d6;
-	 background-color: #e0e6d8;
+	 background-color: #95ab76;
 	 padding-bottom: 50px;
 }
 
 #bigheader {
 	font-size: 40px;
 	padding-bottom: 20px;
-	text-align: center;
-	background-color: #e0e6d8;
+	text-align: center;	 
+	background-color: #95ab76;
 }
 
 #small {
 	font-size: 30px;
-	background-color: #e0e6d8;
+	background-color: #95ab76;
 	text-align: center;
 }
 
@@ -308,9 +299,15 @@ font-size: 50px;
 }
 
 .panel-body {
-	font-size: 20px;
+	font-size: 30px;
 	padding: 20px;
-	height: 180px;
+	height: 400px;
+}
+
+.panel-bodyteammember{
+	height: 370px;
+	font-size: 25px;
+	padding: 20px;
 }
 
 .teammember {
@@ -319,7 +316,7 @@ font-size: 50px;
 
 #myCarousel {
 	width: 50%;
-	margin-top: 120px;
+	margin-top: 140px;
 }
 
 #message {
@@ -416,31 +413,6 @@ font-size: 50px;
 	color: white;
 	width: 100%;
 	float: left;
-}
-
-.worksample img {
-	width: 50%;
-	transition-duration: 0.2s;
-	display: block;
-	margin: auto;
-	padding: 30px 0px;
-}
-
-.worksample img:hover {
-	opacity: 0.6;
-}
-
-#work {
-	text-align: center;
-	padding: 70px 8%;
-}
-
-#work p{
-	font-size: 20px;
-}
-
-#work h2{
-	font-size: 70px;
 }
 
 #circle {
