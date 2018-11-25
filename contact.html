@@ -23,20 +23,26 @@
 				<li class="navig"><a href="team.html">Team</a></li>
 				<li class="navig"><a href="work.html">Work</a></li>
 				<li class="navig"><a href="about.html">About</a></li>
-				<li class="navig"><a href="event.html">Event</a></li>
+				<li class="navig" id="eventmenu">
+					<a href="event.html">Event</a>
+					<div id="dropdown">
+					<a href="weeklyactivity.html">Weekly Activity</a>
+					<a href="openlecure.html">Open Lecture</a>
+					<a href="chinesecorner.html">Chinese Corner</a>
+					<a href="chinesepoetryrecitation.html">Chinese Poetry Recitation</a>
+					</div>
+				</li>
 			</ul>
 		</div>
 		<div class="jumbotron">
 			<h1 id="header">Contact Us</h1>
 			<h4 id="subheader"><span class="glyphicon glyphicon-globe"></span> We'd Like to Hear from You! </h4>
-			<h4 id="subheader1">Please enter the message below to contact us.</h4>
 		</div>
 		<div class="xxx">
-				<p id="bigheader">Contact Information</p>
 				<p id="small">Email Address: hytfpa@gmail.com</p>
 				<p id="small">Location: 820 Colorado Ave, Palo Alto, CA 94303</p>
-				<p id="small">If you have any feedback about our wedsite please email us about it.</p>
-				<div id="myform">
+				<p id="small">If you have any feedback about our website please email us about it.</p>
+				<!--<div id="myform">
 				<div id="form1">
 					Enter your email.</br>
 					<input type="text" name="email" id="email">
@@ -48,10 +54,10 @@
 				<button id="submit" onclick="checkForm()">Send</button>
 				<p id="formerror">
 				</p>
+			</div>-->
+			<div id="map">
+`				<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 			</div>
-		</div>
-		<div id="map">
-`			<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 		</div>
 		<div id="footer">
 				<p>&#169; CHHC 2018</p>

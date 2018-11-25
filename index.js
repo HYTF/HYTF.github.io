@@ -19,7 +19,7 @@ function checkForm() {
 
 $(window).scroll(function() {
   $("#line").css({
-    'height': 150 + ($(this).scrollTop())
+    'height': 250 + ($(this).scrollTop())
   })
 });
 
@@ -44,11 +44,21 @@ $(window).scroll(function() {
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
-        if (pos < winTop + 800) {
+        if (pos < winTop + 700) {
           $(this).addClass("slide2");
         }
     });
   });
+
+$(document).ready(function() {
+  $("#eventmenu").mouseenter(function(){
+      $("#dropdown").slideDown();
+  }); 
+
+  $("#eventmenu").mouseleave(function(){
+      $("#dropdown").slideUp();
+  }); 
+});
 
 $("#objective").click(function(){
     $("#objectivepara").slideToggle();
