@@ -445,7 +445,6 @@ font-size: 50px;
 	}
 
 	#community {
-		text-align: center;
 		padding: 40px 5%;
 		background-color: #e0e6d8;
 	}
@@ -455,6 +454,7 @@ font-size: 50px;
 	}
 
 	#community p {
+		text-align: left;
 		margin-bottom: 20px;
 		font-size: 18px;
 		padding: 30px;
