@@ -58,6 +58,14 @@ $(document).ready(function() {
   $("#eventmenu").mouseleave(function(){
       $("#dropdown").slideUp();
   }); 
+
+  $("#eventmenu2").mouseenter(function(){
+      $("#dropdown2").slideDown();
+  }); 
+
+  $("#eventmenu2").mouseleave(function(){
+      $("#dropdown2").slideUp();
+  }); 
 });
 
 $("#objective").click(function(){
@@ -83,4 +91,9 @@ $("#recentresults").click(function(){
 $("#futureplan").click(function(){
     $("#futureplanpara").slideToggle();
 });
+
+function rotate(x) {
+  x.classList.toggle("change")
+  $("#phonenavlinks").slideToggle(500)
+  }
 

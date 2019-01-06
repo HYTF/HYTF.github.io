@@ -8,7 +8,7 @@ body {
 	overflow-x: hidden;
 }
 
-ul {
+#nav {
 	width:100%;
 	padding: 20px 0px;
 	position: fixed;
@@ -30,6 +30,10 @@ li a {
 	font-size: 25px;
 	color: white;
 	transition-duration: 0.2s;
+}
+
+#menubar, #phonenavlinks{
+	display: none;
 }
 
 #eventmenu {
@@ -434,6 +438,77 @@ font-size: 50px;
 	#myCarousel {
 	width: 100%;
 }
+	#menubar{
+		display: block;
+		position: fixed;
+		top: 22px;
+		right: 3%;
+		z-index: 99;
+		padding: 0;
+		transition-duration: 0.2s;
+	}
+
+	#menubar:hover{
+			cursor: pointer;
+	}
+
+	#menubar:hover #bar1{
+			width: 45px;
+	}
+
+	#menubar:hover #bar2{
+			width: 45px;
+	}
+
+	.navig{
+		display: none;
+	}
+
+	#bar1, #bar2 {
+	    width: 40px;
+	    height: 4px;
+	    margin: 9px 0px;
+	    background: white;
+	    transition-duration: 0.2s;
+	}
+
+	.change #bar1 {
+	    -webkit-transform: rotate(-45deg) translate(-5px, 7px);
+	    transform: rotate(-45deg) translate(-5px, 7px);
+	  }
+
+	.change #bar2 {
+	    -webkit-transform: rotate(45deg) translate(-2px, -4px);
+	    transform: rotate(45deg) translate(-2px, -4px);
+	}
+
+	#phonenavlinks{
+		padding: 10px 10px 20px 20px;
+	}
+
+	#dropdown2 a{
+		padding: 4px 0px;
+		margin-left: 25px;
+		color: white;
+		font-size: 15px;
+		display: block;
+	}
+
+	#dropdown2 {
+		display: none;
+	}
+
+	.navig2{
+		display: block;
+		padding: 8px 0px;
+		list-style-type: none;
+	}
+
+	.navig2 a{
+		font-size: 18px;
+		text-decoration: none;
+	}
+
 	.slides {
 		width: 83%;
 		margin-left: 14%;
